@@ -6,7 +6,7 @@ Provides a consentr dialog modal message to consent to specific script and&or co
 
 ---
 
-Version: 2.2.0
+Version: 2.2.1
 
 Author: Matze @ https://modularity.group
 
@@ -59,6 +59,9 @@ if(is_consent_dialog_selected('external')){
 ```
 
 **Changelog**
+
+2.2.1 (Ben)
+- update core style variables
 
 2.2.0 (Matze)
 - reintegrate php $_COOKIE based php-function again for special situations
