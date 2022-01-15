@@ -6,7 +6,7 @@ Provides a consentr dialog modal message to consent to specific script and&or co
 
 ---
 
-Version: 2.2.1
+Version: 2.2.2
 
 Author: Matze @ https://modularity.group
 
@@ -61,7 +61,8 @@ if(is_consent_dialog_selected('external')){
 **Changelog**
 
 2.2.2 (Ben)
-- [wip] fix active functions on deactivated module
+- fix active functions on deactivated module
+- fix json parse error when no optional scripts used
 
 2.2.1 (Ben)
 - update core style variables
