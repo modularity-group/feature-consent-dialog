@@ -29,7 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
             'type' : currentValueType
           },
           success:function(data) {
-            jQuery('head').append('<script>'+JSON.parse(data)+'</script>');
+            try {
+              jQuery('head').append('<script>'+JSON.parse(data)+'</script>');
+            }
+            catch (e) {
+            }
           },
           error: function(errorThrown){
             console.log(errorThrown);
