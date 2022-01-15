@@ -60,6 +60,9 @@ if(is_consent_dialog_selected('external')){
 
 **Changelog**
 
+2.2.2 (Ben)
+- [wip] fix active functions on deactivated module
+
 2.2.1 (Ben)
 - update core style variables
 
