@@ -87,7 +87,7 @@ jQuery(function($) {
       featureConsentDialog.updateSelection();
     });
 
-    $('.feature-consent-dialog__script-groups li button.info-toggle').click(function(event){
+    $('.feature-consent-dialog__script-groups li .info-toggle').click(function(event){
       event.preventDefault();
       $(this).parent().parent().find('.info').toggleClass('hide');
     });
