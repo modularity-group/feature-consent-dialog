@@ -32,7 +32,7 @@ if(get_field('feature_consent_dialog_active','option')){
             <input type="checkbox" id="essential" name="essential" value="essential" checked disabled>
             <label for="essential">
               <span><?= __('Essentielle Skripte','theme'); ?></span>
-              <button class="info-toggle">Infos</button>
+              <button id="essential" class="info-toggle">Infos</button>
             </label>
             <div class="info hide"><?= get_field('feature_consent_dialog_essential_text','option') ?></div>
           </li>
@@ -41,7 +41,7 @@ if(get_field('feature_consent_dialog_active','option')){
             <input type="checkbox" id="external" name="external" value="external">
             <label for="external">
               <span><?= __('Externe Medien','theme'); ?></span>
-              <button class="info-toggle">Infos</button>
+              <button id="external" class="info-toggle">Infos</button>
             </label>
             <div class="info hide"><?= get_field('feature_consent_dialog_external_text','option') ?></div>
           </li>
@@ -51,7 +51,7 @@ if(get_field('feature_consent_dialog_active','option')){
             <input type="checkbox" id="tracking" name="tracking" value="tracking">
             <label for="tracking">
               <span><?= __('Tracking','theme'); ?></span>
-              <button class="info-toggle">Infos</button>
+              <button id="tracking" class="info-toggle">Infos</button>
             </label>
             <div class="info hide"><?= get_field('feature_consent_dialog_tracking_text','option') ?></div>
           </li>
@@ -61,7 +61,7 @@ if(get_field('feature_consent_dialog_active','option')){
             <input type="checkbox" id="marketing" name="marketing" value="marketing">
             <label for="marketing">
               <span><?= __('Marketing','theme'); ?></span>
-              <button class="info-toggle">Infos</button>
+              <button id="marketing" class="info-toggle">Infos</button>
             </label>
             <div class="info hide"><?= get_field('feature_consent_dialog_marketing_text','option') ?></div>
           </li>

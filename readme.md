@@ -60,6 +60,9 @@ if(is_consent_dialog_selected('external')){
 
 **Changelog**
 
+2.2.3 (Ben)
+- (wip) improve html validity
+
 2.2.2 (Ben)
 - fix active functions on deactivated module
 - fix json parse error when no optional scripts used
