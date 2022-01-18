@@ -60,6 +60,9 @@ if(is_consent_dialog_selected('external')){
 
 **Changelog**
 
+2.2.4 (Ben)
+- wip: fix php notices on empty user selection
+
 2.2.3 (Ben)
 - improve html validity
 

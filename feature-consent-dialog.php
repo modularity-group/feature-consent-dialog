@@ -95,8 +95,11 @@ add_shortcode('consent_dialog_infotext',function($atts){
 
 function is_consent_dialog_selected($type){
   if(get_field('feature_consent_dialog_active','option')){
-    $scriptGroups = json_decode(html_entity_decode(stripslashes($_COOKIE['consent-dialog'])));
-    if(in_array($type,$scriptGroups)){
+    $scriptGroups = array();
+    if (isset($_COOKIE['consent-dialog'])) {
+      $scriptGroups = json_decode(html_entity_decode(stripslashes($_COOKIE['consent-dialog'])));
+    }
+    if(is_array($scriptGroups) && in_array($type,$scriptGroups)){
       return true;
     }
   } else {
