@@ -6,7 +6,7 @@ Provides a consentr dialog modal message to consent to specific script and&or co
 
 ---
 
-Version: 2.2.3
+Version: 2.2.4
 
 Author: Matze @ https://modularity.group
 
@@ -61,7 +61,7 @@ if(is_consent_dialog_selected('external')){
 **Changelog**
 
 2.2.4 (Ben)
-- wip: fix php notices on empty user selection
+- fix php notices on empty user selection
 
 2.2.3 (Ben)
 - improve html validity
