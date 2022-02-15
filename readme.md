@@ -6,7 +6,7 @@ Provides a consentr dialog modal message to consent to specific script and&or co
 
 ---
 
-Version: 2.2.4
+Version: 2.3.0
 
 Author: Matze @ https://modularity.group
 
@@ -59,6 +59,10 @@ if(is_consent_dialog_selected('external')){
 ```
 
 **Changelog**
+
+2.3.0 (Matze)
+- optional scripts output now without `<script>` tag
+- add SameSite=Strict on cookie-set method
 
 2.2.4 (Ben)
 - fix php notices on empty user selection

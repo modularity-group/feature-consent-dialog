@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
           },
           success:function(data) {
             try {
-              jQuery('head').append('<script>'+JSON.parse(data)+'</script>');
+              jQuery('head').append(JSON.parse(data));
             }
             catch (e) {
             }

@@ -357,7 +357,7 @@ if( function_exists('acf_add_local_field_group') ):
             'label' => 'Skripte "Externe Medien"',
             'name' => 'external_scripts',
             'type' => 'textarea',
-            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head mit script-Tag umschlossen ausgegeben.',
+            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head ausgegeben. <script> Tag muss manuell hinzugefügt werden.',
             'required' => 0,
             'conditional_logic' => array(
               array(
@@ -457,7 +457,7 @@ if( function_exists('acf_add_local_field_group') ):
             'label' => 'Skripte "Tracking"',
             'name' => 'tracking_scripts',
             'type' => 'textarea',
-            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head mit script-Tag umschlossen ausgegeben.',
+            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head ausgegeben. <script> Tag muss manuell hinzugefügt werden.',
             'required' => 0,
             'conditional_logic' => array(
               array(
@@ -557,7 +557,7 @@ if( function_exists('acf_add_local_field_group') ):
             'label' => 'Skripte "Marketing"',
             'name' => 'marketing_scripts',
             'type' => 'textarea',
-            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head mit script-Tag umschlossen ausgegeben.',
+            'instructions' => 'Wird je nach Benutzer-Auswahl asynchron nachgeladen und automatisch im html-head ausgegeben. <script> Tag muss manuell hinzugefügt werden.',
             'required' => 0,
             'conditional_logic' => array(
               array(
